@@ -1,3 +1,6 @@
-tt2179136
-tt3682448
-tt6412452
+tt2179136 / Anything after the '/' will not be read by the program.
+tt3682448 / This is useful for noting which movie corresponds with each ID.
+tt6412452 / Bridge of Spies
+tt0241527 / Harry Potter and the Sorceror's Stone
+*tt7286456 / This movie is prefixed with a *, so it will be skipped.
+tt2488496
