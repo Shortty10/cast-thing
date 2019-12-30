@@ -1,2 +1,2 @@
-def compare():
+def compare(movies):
     pass
