@@ -33,7 +33,10 @@ def find_cast(cast):
 
     for member in cast:
         member_data = member.find_all('a')
-        member_id = member_data[0]['href'].split('/name/')[1].split('/')[0]
+        try:
+            member_id = member_data[0]['href'].split('/name/')[1].split('/')[0]
+        except IndexError:
+            continue
         member_name = member_data[1].text.strip()
         member_role = member.find('td', class_='character').text.strip()
         if '(' in member_role and '\n' in member_role:

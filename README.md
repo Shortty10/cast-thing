@@ -1,5 +1,5 @@
 # cast-thing
-Find common actors in a list of movies.
+Find common actors in a list of movies or TV shows.
 
 ![Sample Output](/images/example.jpg)
 
@@ -18,7 +18,7 @@ $ pip install -r requirements.txt
 - For example, American Sniper's IMDB URL is https://www.imdb.com/title/tt2179136/, meaning the ID is  tt2179136.
 - Add each ID into titles.txt.
 - To exclude an ID from the next run, add an asterisk before the ID (as shown below)
-- To add a comment after an ID, (to note the name of the movie, etc.) add a slash after the ID and type your comment.
+- To add a comment after an ID, (to note the name of the movie/show, etc.) add a slash after the ID and type your comment.
 
 ![Sample titles.txt file](/images/titles.jpg)
 
